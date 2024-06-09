@@ -114,9 +114,10 @@ const App = () => {
   };
 
   return (
-    <div className="min-h-screen bg-gray-100 dark:bg-gray-900 transition-colors duration-300">
+    <div className="min-h-screen bg-yellow-600 dark:bg-gray-900 transition-colors duration-300">
       <Header toggleDarkMode={handleDarkModeToggle} isDarkMode={isDarkMode} />
       <div className="container mx-auto p-4">
+        
         <Search onSearch={addLocation} />
         {error ? (
           <p className="text-red-500 text-center mt-4">{error}</p>

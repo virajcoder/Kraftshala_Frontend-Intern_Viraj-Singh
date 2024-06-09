@@ -16,7 +16,7 @@ const WeatherCard = ({ weatherData }) => {
   const date = new Date(dt * 1000).toLocaleString();
 
   return (
-    <div className="p-4 mt-4 dark:bg-gray-700 shadow-md rounded-md">
+    <div className="p-4 mt-4 bg-teal-900 dark:bg-gray-700 dark:text-yellow-500 text-yellow-600 shadow-md rounded-md">
       <h2 className="text-xl font-bold mb-2">{name}</h2>
       <p>{date}</p>
       <p className="text-3xl font-bold mb-2">{temp}°C</p>

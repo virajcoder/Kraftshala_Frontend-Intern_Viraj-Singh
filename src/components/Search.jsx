@@ -1,4 +1,4 @@
-import  { useState } from 'react';
+import React, { useState } from 'react';
 
 const Search = ({ onSearch }) => {
   const [location, setLocation] = useState('');
@@ -20,7 +20,7 @@ const Search = ({ onSearch }) => {
         className="p-2 border border-gray-300 rounded-md w-2/3"
         placeholder="Enter city name or zip code"
       />
-      <button type="submit" className="ml-2 p-2 bg-blue-500 text-white rounded-md">Search</button>
+      <button type="submit" className="ml-2 p-2 bg-teal-900 dark:bg-gray-800 text-white rounded-md">Search</button>
     </form>
   );
 };

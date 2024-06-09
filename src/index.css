@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  transition: background-color 0.3s, color 0.3s; /* Smooth transition for theme change */
+}
+
+/* Additional custom styles for dark mode */
+body.dark {
+  background-color: #082c73; /* dark mode background color */
+  color: white;
+}
